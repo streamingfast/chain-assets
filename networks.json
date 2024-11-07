@@ -1,0 +1,338 @@
+{
+  "networks": [
+    {
+      "name": "Ethereum Mainnet",
+      "logo": "/images/network_logos/ethereum.svg",
+      "href": "ethereum",
+      "description": "Ethereum Mainnet is a decentralized platform that enables developers to build and deploy smart contracts and decentralized applications (dApps). It operates on a proof-of-stake consensus mechanism, enhancing scalability and reducing energy consumption.",
+      "testnet": false,
+      "consensusLayer": false
+    },
+    {
+      "name": "BNB Smart Chain",
+      "logo": "/images/network_logos/bsc.png",
+      "href": "bnb",
+      "description": "BNB Smart Chain is a blockchain network that supports smart contracts and is optimized for high-performance decentralized applications. It is built for rapid transactions and lower fees, making it a popular choice for DeFi projects.",
+      "testnet": false,
+      "consensusLayer": false
+    },
+    {
+      "name": "Arbitrum One",
+      "logo": "/images/network_logos/arbitrum.png",
+      "href": "arbone",
+      "description": "Arbitrum One is a layer 2 scaling solution for Ethereum, designed to improve transaction throughput and reduce costs. It leverages optimistic rollups to enhance the speed of dApps while maintaining security through the Ethereum mainnet.",
+      "testnet": false,
+      "consensusLayer": false
+    },
+    {
+      "name": "Base",
+      "logo": "/images/network_logos/base.webp",
+      "href": "base",
+      "description": "Base is a layer 2 blockchain built on Ethereum, focused on enabling developers to create fast and cost-effective dApps. It enhances user experience with low fees and instant transactions while benefiting from Ethereum's security.",
+      "testnet": false,
+      "consensusLayer": false
+    },
+    {
+      "name": "Avalanche",
+      "logo": "/images/network_logos/avalanche.png",
+      "href": "avalanche",
+      "description": "Avalanche is a high-performance blockchain platform that supports customizable blockchains and dApps. It is known for its unique consensus mechanism, enabling near-instant finality and high throughput.",
+      "testnet": false,
+      "consensusLayer": false
+    },
+    {
+      "name": "Polygon",
+      "logo": "/images/network_logos/polygon.png",
+      "href": "polygon",
+      "description": "Polygon is a multi-chain scaling solution for Ethereum that enhances dApp performance and reduces costs through various layer 2 solutions. It provides a framework for building and connecting Ethereum-compatible blockchains.",
+      "testnet": false,
+      "consensusLayer": false
+    },
+    {
+      "name": "Bitcoin",
+      "logo": "/images/network_logos/bitcoin.png",
+      "href": "bitcoin",
+      "description": "Bitcoin is a decentralized digital currency, designed for peer-to-peer transactions without intermediaries. It operates on a secure blockchain network and is widely recognized as the first cryptocurrency, valued as a store of wealth and medium of exchange.",
+      "testnet": false,
+      "consensusLayer": false
+    },
+    {
+      "name": "NEAR",
+      "logo": "/images/network_logos/near.png",
+      "href": "near",
+      "description": "NEAR is a decentralized application platform designed for speed and usability. It features a unique consensus mechanism called Nightshade, allowing developers to build scalable dApps with low fees and high performance.",
+      "testnet": false,
+      "consensusLayer": false
+    },
+    {
+      "name": "NEAR Testnet",
+      "href": "near-testnet",
+      "logo": "/images/network_logos/near.png",
+      "description": "NEAR Testnet provides a testing environment for developers to experiment and deploy dApps without incurring costs. It mimics the mainnet's functionalities to facilitate safe testing and development.",
+      "testnet": true,
+      "consensusLayer": false
+    },
+    {
+      "name": "Solana",
+      "logo": "/images/network_logos/solana.png",
+      "href": "solana",
+      "description": "Solana is a high-performance blockchain platform designed for decentralized applications and crypto projects. It features a unique consensus mechanism called Proof of History, allowing for fast transaction speeds and low costs.",
+      "testnet": false,
+      "consensusLayer": false
+    },
+    {
+      "name": "Starknet",
+      "logo": "/images/network_logos/starknet.svg",
+      "href": "starknet",
+      "description": "Starknet is a layer 2 scaling solution for Ethereum that utilizes zk-rollups for improved scalability and privacy. It enables developers to build scalable dApps while benefiting from Ethereum's security.",
+      "testnet": false,
+      "consensusLayer": false,
+      "service": "firehose"
+    },
+    {
+      "name": "Starknet Testnet",
+      "logo": "/images/network_logos/starknet.svg",
+      "href": "starknet-testnet",
+      "description": "Starknet Testnet allows developers to test their dApps in a secure environment before launching on the mainnet. It supports zk-rollups, providing a realistic testing ground.",
+      "testnet": true,
+      "consensusLayer": false,
+      "service": "firehose"
+    },
+    {
+      "name": "SEI (EVM)",
+      "logo": "/images/network_logos/sei.png",
+      "href": "sei-evm",
+      "description": "SEI (EVM) is a decentralized blockchain optimized for decentralized finance (DeFi) applications. It offers high throughput and low transaction fees, making it ideal for developers focused on DeFi.",
+      "testnet": false,
+      "consensusLayer": false
+    },
+    {
+      "name": "Injective",
+      "logo": "/images/network_logos/injective.png",
+      "href": "injective",
+      "description": "Injective is a layer 2 decentralized exchange protocol that provides high-speed trading and cross-chain functionality. It empowers users to create and trade any financial market.",
+      "testnet": false,
+      "consensusLayer": false
+    },
+    {
+      "href": "injective-testnet",
+      "name": "Injective Testnet",
+      "description": "Injective Testnet is the testing environment for the Injective protocol, allowing developers to experiment with trading functionalities and features before launching on the mainnet.",
+      "testnet": true,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/injective.png"
+    },
+    {
+      "href": "amoy",
+      "name": "Amoy Testnet",
+      "description": "Amoy Testnet provides a sandbox environment for developers to test dApps and smart contracts without incurring real costs. It simulates the mainnet features for safe development.",
+      "consensusLayer": false,
+      "testnet": true,
+      "logo": "/images/network_logos/polygon.png"
+    },
+    {
+      "href": "arbsepolia",
+      "name": "Arbitrum Sepolia",
+      "description": "Arbitrum Sepolia is a test environment for developers building on the Arbitrum platform, allowing testing of dApps with reduced costs and fast transaction times.",
+      "testnet": true,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/arbitrum.png"
+    },
+    {
+      "href": "arweave",
+      "name": "Arweave",
+      "description": "Arweave is a decentralized storage solution that allows users to store data permanently on the blockchain. It utilizes a unique proof of access mechanism to ensure data longevity.",
+      "testnet": false,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/arweave.svg"
+    },
+    {
+      "href": "chapel",
+      "name": "Chapel Testnet",
+      "description": "Chapel Testnet is the testing ground for the Chapel blockchain, enabling developers to deploy and test their projects in a secure environment.",
+      "testnet": true,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/bsc.png"
+    },
+    {
+      "href": "chiado-cl",
+      "name": "Chiado Consensus Layer",
+      "description": "Chiado Consensus Layer provides a secure environment for executing smart contracts and facilitating decentralized applications on the Chiado blockchain.",
+      "testnet": false,
+      "consensusLayer": true,
+      "logo": "/images/network_logos/gnosis.svg"
+    },
+    {
+      "href": "cosmoshub",
+      "name": "Cosmos Hub",
+      "description": "Cosmos Hub is the central blockchain in the Cosmos ecosystem, facilitating interoperability between various blockchains. It utilizes a proof-of-stake consensus mechanism for enhanced security.",
+      "testnet": false,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/cosmoshub.svg"
+    },
+    {
+      "href": "eos",
+      "name": "EOS Mainnet",
+      "description": "EOS Mainnet is a decentralized platform designed for high-speed transactions and scalability. It supports the development of dApps with a focus on user-friendly experiences.",
+      "testnet": false,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/eos.svg"
+    },
+    {
+      "href": "eth-cl",
+      "name": "Ethereum Consensus Layer",
+      "description": "Ethereum Consensus Layer provides the underlying security and functionality for Ethereum, supporting smart contracts and decentralized applications with a proof-of-stake mechanism.",
+      "testnet": false,
+      "consensusLayer": true,
+      "logo": "/images/network_logos/ethereum.svg"
+    },
+    {
+      "href": "gnosis-cl",
+      "name": "Gnosis Consensus Layer",
+      "description": "Gnosis Consensus Layer is designed to enhance the scalability and efficiency of the Gnosis blockchain, allowing developers to build and deploy secure dApps.",
+      "testnet": false,
+      "consensusLayer": true,
+      "logo": "/images/network_logos/gnosis.svg"
+    },
+    {
+      "href": "holesky",
+      "name": "Holesky Testnet",
+      "description": "Holesky Testnet serves as a testing environment for developers to experiment with the features of the Holesky blockchain without financial implications.",
+      "testnet": true,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/ethereum.svg"
+    },
+    {
+      "href": "holesky-cl",
+      "name": "Holesky Consensus Layer",
+      "description": "Holesky Consensus Layer provides a secure environment for executing smart contracts, enhancing the Holesky blockchain's capabilities.",
+      "testnet": true,
+      "consensusLayer": true,
+      "logo": "/images/network_logos/ethereum.svg"
+    },
+    {
+      "href": "jungle4",
+      "name": "Jungle4 Testnet",
+      "description": "Jungle4 Testnet allows developers to deploy and test their dApps in a realistic environment, facilitating the development of new features and functionalities.",
+      "testnet": true,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/eos.svg"
+    },
+    {
+      "href": "kylin",
+      "name": "Kylin Testnet",
+      "description": "Kylin Testnet is a testing platform for developers building on the Kylin blockchain, enabling safe experimentation with dApps and smart contracts.",
+      "testnet": true,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/eos.svg"
+    },
+    {
+      "href": "mode",
+      "name": "Mode",
+      "description": "Mode is a decentralized platform aimed at simplifying the process of building and deploying applications in the blockchain space, focusing on user-friendliness and accessibility.",
+      "testnet": false,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/mode.svg"
+    },
+    {
+      "href": "optimism",
+      "name": "Optimism",
+      "description": "Optimism is a layer 2 scaling solution for Ethereum that enhances transaction speeds and reduces costs for dApps while maintaining security through the Ethereum mainnet.",
+      "testnet": false,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/optimism.png"
+    },
+    {
+      "href": "osmosis",
+      "name": "Osmosis",
+      "description": "Osmosis is a decentralized exchange platform designed for liquidity providers and traders, facilitating the swapping of tokens within the Cosmos ecosystem.",
+      "testnet": false,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/osmosis.svg"
+    },
+    {
+      "href": "sepolia",
+      "name": "Sepolia",
+      "description": "Sepolia is a testnet for Ethereum, allowing developers to test their applications and smart contracts before deploying them on the mainnet.",
+      "testnet": false,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/ethereum.svg"
+    },
+    {
+      "href": "sepolia-cl",
+      "name": "Sepolia Consensus Layer",
+      "description": "Sepolia Consensus Layer provides a secure environment for executing smart contracts, supporting Ethereum dApps with a proof-of-stake mechanism.",
+      "testnet": false,
+      "consensusLayer": true,
+      "logo": "/images/network_logos/ethereum.svg"
+    },
+    {
+      "name": "Telos",
+      "logo": "/images/network_logos/telos.png",
+      "href": "telos",
+      "description": "Telos is a high-performance blockchain designed for dApps, offering fast transaction speeds and a user-friendly experience.",
+      "testnet": false,
+      "consensusLayer": false
+    },
+    {
+      "href": "telos-testnet",
+      "name": "Telos Testnet",
+      "description": "Telos Testnet is a safe environment for developers to test their dApps and features without incurring costs.",
+      "testnet": true,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/telos.png"
+    },
+    {
+      "href": "theta",
+      "name": "Theta",
+      "description": "Theta is a decentralized video streaming platform that utilizes blockchain technology to improve content delivery and distribution.",
+      "testnet": false,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/cosmoshub.svg"
+    },
+    {
+      "name": "Vara",
+      "logo": "/images/network_logos/vara.svg",
+      "href": "vara",
+      "testnet": false,
+      "consensusLayer": false
+    },
+    {
+      "name": "Vara Testnet",
+      "logo": "/images/network_logos/vara.svg",
+      "href": "vara-testnet",
+      "testnet": true,
+      "consensusLayer": false
+    },
+    {
+      "href": "wax",
+      "name": "WAX",
+      "description": "WAX is a blockchain focused on the creation and trading of virtual goods and collectibles, facilitating a user-friendly environment for developers and gamers.",
+      "testnet": false,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/wax.svg"
+    },
+    {
+      "href": "wax-testnet",
+      "name": "WAX Testnet",
+      "description": "WAX Testnet allows developers to test their applications in a secure environment before deploying them on the WAX mainnet.",
+      "testnet": true,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/wax.svg"
+    },
+    {
+      "href": "mantra",
+      "name": "Mantra",
+      "testnet": false,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/mantra.svg"
+    },
+    {
+      "href": "mantra-testnet",
+      "name": "Mantra Testnet",
+      "testnet": true,
+      "consensusLayer": false,
+      "logo": "/images/network_logos/mantra.svg"
+    }
+  ]
+}
